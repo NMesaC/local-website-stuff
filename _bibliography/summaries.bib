@@ -1,0 +1,58 @@
+---
+---
+@article{2403.01643v2,
+      author        = {Mehran Hosseini and Peyman Hosseini},
+      title         = {You Need to Pay Better Attention: Rethinking the Mathematics of Attention Mechanism}, 
+      eprint        = {2403.01643v2},
+      archiveprefix = {arXiv},
+      primaryclass  = {cs.LG},
+      abstract      = {Scaled Dot Product Attention (SDPA) is the backbone of many modern deep-learning models. 
+                       It is so versatile that it has been used in natural language, vision, and multi-modal domains 
+                       with very little change compared to its original formulation. This paper discusses why the 
+                       current formulation is inefficient by delving into the mathematical details of the attention 
+                       mechanism. We propose three improvements to mitigate these inefficiencies, thereby, introducing 
+                       three enhanced attention mechanisms: Optimised, Efficient, and Super Attention. Optimised and 
+                       Efficient Attention have one and two matrix multiplications fewer per head, respectively, and 
+                       25% and 50% fewer parameters, respectively, than standard SDPA, but perform similarly to standard
+                       SDPA in both vision and natural language tasks. They can be used in all applications where SDPA 
+                       is used while offering smaller model sizes and faster training and inference without noticeable 
+                       loss in performance. Super Attention introduces a new linear transformation on the values, 
+                       transforming them from the left. It outperforms standard SPDA on vision and natural 
+                       language tasks by up to 17% while having one fewer matrix multiplication per head and 
+                       25% fewer parameters than standard SDPA. Consequently, it is also faster than standard SDPA. 
+                       Super Attention is ideal in applications where the attention layer's context length is fixed, 
+                       such as Vision Transformers. In addition to providing mathematical reasoning, we evaluate the 
+                       presented attention mechanisms on several datasets including MNIST, CIFAR100, ImageNet, 
+                       IMDB Movie Reviews, and Amazon Reviews datasets, as well as combined Europarl and Anki 
+                       English-Spanish datasets for neural machine translation.},
+      year          = {2024},
+      month         = {Mar},
+      url           = {https://arxiv.org/abs/2403.01643},
+      file          = {2403.01643v2.pdf},
+      eprintnover   = {2403.01643}
+}
+
+@article{2301.13823v4,
+  author        = {Jing Yu Koh and Ruslan Salakhutdinov and Daniel Fried},
+  title         = {Grounding Language Models to Images for Multimodal Inputs and Outputs},
+  eprint        = {2301.13823v4},
+  archiveprefix = {arXiv},
+  primaryclass  = {cs.CL},
+  abstract      = {We propose an efficient method to ground pretrained text-only language models to the visual domain,
+                   enabling them to process arbitrarily interleaved image-and-text data, and generate text interleaved 
+                   with retrieved images. Our method leverages the abilities of language models learnt from large scale 
+                   text-only pretraining, such as in-context learning and free-form text generation. We keep the 
+                   language model frozen, and finetune input and output linear layers to enable cross-modality 
+                   interactions. This allows our model to process arbitrarily interleaved image-and-text inputs, and 
+                   generate free-form text interleaved with retrieved images. We achieve strong zero-shot performance 
+                   on grounded tasks such as contextual image retrieval and multimodal dialogue, and showcase compelling
+                   interactive abilities. Our approach works with any off-the-shelf language model and paves the way 
+                   towards an effective, general solution for leveraging pretrained language models in 
+                   visually grounded settings.},
+  year          = {2023},
+  month         = {Jan},
+  url           = {https://arxiv.org/abs/2301.13823v4},
+  file          = {2301.13823v4.pdf},
+  eprintnover   = {2301.13823}
+}
+
