@@ -3,6 +3,8 @@ layout: default
 ---
 <!-- _layouts/summary.liquid -->
 
+{% include scripts/mathjax.liquid %}
+
 {% if page._styles %}
   <!-- Page/Post style -->
   <style type="text/css">
@@ -10,7 +12,6 @@ layout: default
   </style>
 {% endif %}
 
-{% include scripts/mathjax.liquid %}
 {% include scripts/mathjax_macros.html %}
 
 <!-- hack to inherit CSS styles to suppress list counts -->
